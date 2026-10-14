@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/kr8-object-memory",
+    "crates/kr8-capability",
+    "crates/kr8-memory-sqlite",
+]

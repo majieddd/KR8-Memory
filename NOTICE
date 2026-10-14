@@ -1,0 +1,17 @@
+KR8 Memory
+Copyright 2026 Majied LaFleur
+
+This package contains the modular memory core extracted from the kr8 project.
+Its three Rust package manifests declare the Apache License, Version 2.0.
+A copy of that license, including the originating copyright notice, is in LICENSE.
+
+The originating kr8 project is a modified derivative of Buzz
+(https://github.com/block/buzz), Copyright Block, Inc., licensed under the
+Apache License, Version 2.0. That origin attribution is retained here.
+
+"Buzz", the Buzz logo and the Buzz mascots are trademarks of Block, Inc.
+KR8 Memory is not affiliated with, sponsored by, or endorsed by Block, Inc.
+
+Dependency authors retain their own copyrights and licenses. Cargo resolves
+those dependencies separately; their source or assets are not vendored in this
+package. A binary distributor must review the resolved dependency notices.

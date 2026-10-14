@@ -1,0 +1,16 @@
+[package]
+name = "kr8-memory-sqlite"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.88.0"
+license = "Apache-2.0"
+
+[dependencies]
+kr8-object-memory = { path = "../kr8-object-memory" }
+kr8-capability = { path = "../kr8-capability" }
+rusqlite = { version = "0.40", features = ["bundled", "backup", "hooks"] }
+serde_json = "1"
+thiserror = "2"
+
+[dev-dependencies]
+tempfile = "3"

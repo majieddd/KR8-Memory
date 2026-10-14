@@ -1,0 +1,12 @@
+/target/
+/dist/
+/coverage/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.db
+*.db-wal
+*.db-shm
+.env
+.env.*
+!.env.example
