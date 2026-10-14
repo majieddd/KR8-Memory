@@ -21,7 +21,7 @@ cargo run --locked -p kr8-memory-sqlite --example synthetic_lifecycle
 
 The example uses real public record-log and FTS APIs in a fresh temporary directory. It creates and searches a synthetic note, reopens read-only peers, supersedes the note, forgets its replacement and checks replay cannot restore it. Its relay identifier is invented metadata; the example makes no network or model calls and accepts no user data path.
 
-The standalone workspace has passed 33 tests, strict Clippy, formatting and the lifecycle example on Windows with Rust 1.95.0 and the committed dependency lock. The documentation-test command passed with zero documentation test cases. Hosted Linux and Windows CI is configured separately; its results must be checked for the selected revision. These functional checks establish the storage contract, not agent-memory efficacy or deployment security.
+The standalone workspace has passed 33 tests, strict Clippy, formatting and the lifecycle example locally on Windows with Rust 1.95.0 and the committed dependency lock. [Hosted Linux and Windows CI](https://github.com/majieddd/KR8-Memory/actions/runs/38517123193) passed the same checks at revision `4da8a0578428be39e74133c8ab6cd83d0cb9ebbb`. The documentation-test command passed with zero documentation test cases. These functional checks establish the storage contract, not agent-memory efficacy or deployment security. Check CI for the revision you use.
 
 ## Integrate
 
